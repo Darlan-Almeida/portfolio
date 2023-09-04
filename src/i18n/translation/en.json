@@ -90,6 +90,10 @@
                 "ingles": {
                     "title": "Basic English",
                     "descrition": "64-hour FIC English course offered by IFPB."
+                },
+                "expotec": {
+                    "title": "expotec",
+                    "descrition": "Participation in the technology event with the theme of innovation and Artificial Intelligence"
                 }
             }
         ],
