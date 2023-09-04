@@ -1,13 +1,15 @@
 {
   "name": "portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "source": "index.html",
+  "homepage": "https://darlan-almeida.github.io/portfolio",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "start": "parcel",
+    "build": "parcel build",
+    "build-gh": "parcel build --public-url 'https://darlan-almeida.github.io/portfolio'",
+    "predeploy": "npm run build-gh",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
