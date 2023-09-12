@@ -23,7 +23,7 @@ const Footer = () => {
 
                     <p
                         className='text-white '
-                    >Copyright {year}. {t("footer.0.copyright")}</p>
+                    >Copyright {year}</p>
                 </div>
             </div>
         </div>

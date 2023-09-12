@@ -22,7 +22,7 @@ const ProjetosPessoais = ({ OnOff = true }) => {
   const listProjetcs = [
     {
       id: 1,
-      href: "test.vocacionaltech.repl.co",
+      href: "https://test.vocacionaltech.repl.co",
       github: "https://github.com/darlan-almeida/tech-vocacional",
       img: tech_vocacional,
       title: t("projects.1.tech_vocacional.title"),
