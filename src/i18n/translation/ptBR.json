@@ -45,11 +45,11 @@
                     "descritionJS": "JavaScript é uma linguagem de programação que impulsiona a web"
                 },
                 "tecsSlideRowTwo": {
-                    "descritionPython": "High-level programming language",
-                    "descritionGit": "It is the most widely used open-source version control system in the world today!",
-                    "descritionFlask": "Framework used for web systems",
-                    "descritionGithub": "It is the most widely used code repository system in the world today!",
-                    "descritionDjango": "Framework used for web systems"
+                "descritionPython": "Linguagem de programação de alto nível",
+                "descritionGit": "É o sistema de controle de versão de código aberto mais amplamente usado no mundo hoje!",
+                "descritionFlask": "Framework usado para sistemas web",
+                "descritionGithub": "É o sistema de repositório de código mais amplamente usado no mundo hoje!",
+                "descritionDjango": "Framework usado para sistemas web" 
                 }
             }
         ],
