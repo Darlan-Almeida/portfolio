@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Darlan Almeida</title>
+<style>
+  :root{
+    --text:   #1a1a1a;
+    --dim:    #5b5b5b;
+    --line:   #dcdcdc;
+    --link:   #2a5db0;
+    --bg:     #ffffff;
+    --max:    700px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    line-height:1.6;
+  }
+  a{color:var(--link); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  a:focus-visible{outline:2px solid var(--link); outline-offset:2px;}
+
+  .wrap{max-width:var(--max); margin:0 auto; padding:64px 24px 96px;}
+
+  .name{font-size:22px; font-weight:600; margin:0;}
+  .role{color:var(--dim); font-size:15.5px; margin:4px 0 22px;}
+
+  nav.tabs{font-size:15px; margin-bottom:40px;}
+  nav.tabs a{margin-right:4px;}
+  nav.tabs span.sep{color:var(--dim); margin:0 8px;}
+
+  h2{
+    font-size:15px; text-transform:none; font-weight:600;
+    margin:0 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line);
+  }
+  section{margin-bottom:40px;}
+
+  .profile-row{display:flex; gap:20px; align-items:flex-start; margin-bottom:8px;}
+  .profile-row img{width:96px; height:96px; object-fit:cover; border-radius:4px; flex-shrink:0;}
+  .links-row{font-size:14.5px; margin:14px 0 6px;}
+  .links-row a{margin-right:14px;}
+
+  p{margin:0 0 14px; font-size:15.5px;}
+
+  ul.plain{list-style:none; margin:0; padding:0;}
+  ul.plain li{
+    font-size:15px; padding:7px 0; border-top:1px solid var(--line);
+    display:flex; gap:14px;
+  }
+  ul.plain li:first-child{border-top:none;}
+  ul.plain li .when{
+    color:var(--dim); font-size:13.5px; white-space:nowrap; flex-shrink:0; width:130px;
+    padding-top:1px;
+  }
+
+  .item{padding:14px 0; border-top:1px solid var(--line);}
+  .item:first-child{border-top:none;}
+  .item .meta{color:var(--dim); font-size:13.5px; margin-bottom:4px;}
+  .item .meta strong{color:var(--text); font-weight:600;}
+  .item .meta a{color:var(--link);}
+  .item p{margin:0; font-size:15px; color:#333;}
+
+  .pub-year{font-size:13px; color:var(--dim); font-weight:600; margin:22px 0 10px;}
+  .pub-year:first-child{margin-top:0;}
+  .pub{font-size:14.5px; margin:0 0 12px; color:#333;}
+  .pub .title{color:var(--text);}
+
+  footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--dim);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="name">Darlan Almeida</p>
+  <p class="role">Computer Science Student @ UFCG — Data Scientist / AI Researcher @ LACINA</p>
+
+  <nav class="tabs">
+    <a href="#research">research</a><span class="sep">/</span><a href="#projects">projects</a><span class="sep">/</span><a href="#leadership">leadership</a><span class="sep">/</span><a href="#publications">publications</a>
+  </nav>
+
+  <section id="about">
+    <h2>About me</h2>
+    <div class="links-row">
+      <a href="https://www.linkedin.com/in/darlan-almeida-92251a232/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Darlan-Almeida/" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:adarlan748@gmail.com">Email</a>
+    </div>
+    <p>I work on machine learning, NLP, and LLM-based systems at LACINA, UFCG's AI research lab, and I have a background in community organizing, having led a municipal youth council in Picuí, Brazil, for five years.</p>
+  </section>
+
+  <section id="timeline">
+    <h2>Experience</h2>
+    <ul class="plain">
+      <li><span class="when">Jan-2026/present</span><span>Data Scientist / AI Researcher at LACINA — DELL Computers Project</span></li>
+      <li><span class="when">Mar-2025/Sep-2026</span><span>Data Scientist / AI Researcher at LACINA — ANATEL Project</span></li>
+      <li><span class="when">Jun-2024/Feb-2025</span><span>Data Scientist / AI Researcher at LACINA — UFCG Dropout Project</span></li>
+      <li><span class="when">Apr-2023/Feb-2024</span><span>Administrative & Customer Service Assistant, AgroAmigo Program (Banco do Nordeste)</span></li>
+      <li><span class="when">2021/2022</span><span>StopSpeaking — hardware device for noise-level monitoring, IFPB</span></li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <div class="item">
+      <div class="meta"><strong>DELL Computers Project</strong> — Jan 2026/present</div>
+      <p>I develop an LLM-based agent that reviews code changes and orchestrates multi-step workflows to enrich contextual information and resolve security vulnerabilities directly within production pipelines.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>ANATEL Project</strong> — Mar 2025/Sep 2026</div>
+      <p>I compare large language models against traditional NLP and machine learning methods to classify legal texts into procedural stages, and deploy the resulting pipeline into production.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>UFCG Dropout Project</strong> — Jun 2024/Feb 2025</div>
+      <p>I built explainable machine learning models to predict student dropout, combining SHAP and LIME with open-source LLMs to translate predictions into plain-language explanations for university staff.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>StopSpeaking</strong> — 2021/2022</div>
+      <p>As part of my technical studies at IFPB, I co-developed a hardware device with embedded sensors to measure and alert on excessive noise levels in shared environments such as classrooms.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>GitHub Projects</h2>
+
+    <div class="item">
+      <div class="meta"><strong>LegisZap</strong> — <a href="https://github.com/Darlan-Almeida/LegisZap" target="_blank" rel="noopener">repo</a></div>
+      <p>A WhatsApp/Telegram/CLI assistant that explains the Brazilian legislative process in plain language. It answers questions about bills, votes, amendments, and the budget, keeps conversational context across follow-ups, and adapts tone and reading level (including audio) for users with limited formal education.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>RadarParadesporto</strong> — <a href="https://github.com/Darlan-Almeida/RadarParadesporto" target="_blank" rel="noopener">repo</a></div>
+      <p>A public web platform mapping parasport and adapted-sport initiatives across Brazil, with zero-reload navigation across country, state, and city levels. Built with Next.js, React, and TypeScript, using d3-geo with IBGE territorial data for interactive SVG maps.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>pdf_extractor</strong> — <a href="https://github.com/Darlan-Almeida/pdf_extractor" target="_blank" rel="noopener">repo</a></div>
+      <p>A cost-efficient system for extracting structured data from text-based PDFs, combining local text extraction, data-driven heuristics, and LLM calls only for missing fields. Includes adaptive SQLite caching, a Flask API, and batch/streaming endpoints.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>Benchmarks_Estrutura_De_Dados</strong> — <a href="https://github.com/Darlan-Almeida/Benchmarks_Estrutura_De_Dados" target="_blank" rel="noopener">repo</a></div>
+      <p>A Java benchmarking suite built with JMH to measure the performance of core data structures across access, insertion, removal, search, and sorting operations, comparing empirical results against their asymptotic complexity.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>Credit-Card-Fraud-Detection</strong> — <a href="https://github.com/Darlan-Almeida/Credit-Card-Fraud-Detection" target="_blank" rel="noopener">repo</a></div>
+      <p>A Jupyter notebook exploring credit card fraud detection, covering exploratory analysis and class-imbalance handling, feature preprocessing, and training and evaluating classification models with precision, recall, and ROC-AUC.</p>
+    </div>
+  </section>
+
+  <section id="leadership">
+    <h2>Community Leadership</h2>
+
+    <div class="item">
+      <div class="meta"><strong>President (elected)</strong>, NUCA Picuí — Jan 2018/Jan 2023</div>
+      <p>I was democratically elected to lead a municipal youth citizenship council, where I ran public debates and elections, founded the council's digital communication channels, represented it in events and municipal media, and took part in an intersectoral commission working toward the municipality's UNICEF Seal.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>Administrative & Customer Service Assistant</strong>, AgroAmigo Program — Apr 2023/Feb 2024</div>
+      <p>I supported a national rural microcredit program in partnership with Banco do Nordeste, presenting services to small-scale producers, managing client documentation, and helping automate and streamline the team's workflow.</p>
+    </div>
+
+    <div class="item">
+      <div class="meta"><strong>Tutor</strong>, PET Computação — Feb 2024/Dec 2024</div>
+      <p>I organized events and onboarding activities to welcome and integrate incoming Computer Science students into the academic community.</p>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <div class="pub-year">2026</div>
+    <p class="pub"><span class="title">How Effectively Do LLMs Automate Data Analysis? A Comparative Study with ChatGPT's Data Analyst, Grok, and Qwen.</span> Almeida, D. <em>Journal of Information and Data Management (JIDM)</em>, 2026. <a href="https://journals-sol.sbc.org.br/index.php/jidm/article/view/5963" target="_blank" rel="noopener">link</a></p>
+  </section>
+
+  <footer>
+    Darlan Almeida · Campina Grande, Paraíba, Brazil
+  </footer>
+
+</div>
+</body>
+</html>
